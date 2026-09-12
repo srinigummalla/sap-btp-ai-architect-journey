@@ -1,17 +1,29 @@
-# sap-btp-ai-architect-journey
-Srini Reddy — 19y SAP ABAP/RAP/OData/Fiori → BTP AI Architect evidence repo.
-UC1: Intelligent Goods Receipt Assistant (SuggestGRPosting).
-Clean-core: GR posting stays RAP/ABAP; AI suggestion is CAP on BTP.
-Stack target: CAP + Generative AI Hub + HANA Vector + Joule later.
-Week 1: trial + CAP stub only. GenAI Hub not entitled yet.
-Trial: US East (VA) / 69b7f502trial / space dev.
+# Intelligent Goods Receipt Assistant — BTP AI evidence
 
-## Architecture (UC1)
+Senior SAP Technical Architect (19 yrs ABAP / RAP / OData / Fiori)
+building a side-by-side AI extension on SAP BTP.
 
-User (Fiori/Joule)
+## Use case
+Warehouse clerk asks: what should I post for this inbound delivery?
+CAP action `SuggestGRPosting` returns a suggestion.
+Transactional goods receipt stays in S/4 RAP/ABAP.
+
+## Architecture
+User (Fiori / Joule)
   → CAP on BTP (`SuggestGRPosting`)
-    → Destination to S/4 OData (inbound delivery)
-    → Generative AI Hub / AI Core → Foundation Model
+    → Destination to S/4 OData (inbound delivery facts)
+    → Generative AI Hub on AI Core → Foundation Model
     → HANA Vector Engine (RAG: GR SOPs, packing docs)
 
-Clean-core: RAP/ABAP posts GR. CAP on BTP only suggests.
+Clean-core side-by-side: CAP on BTP calls Generative AI Hub for the LLM,
+grounds answers with HANA Vector Engine, and exposes an OData action
+that S/4 or Joule can consume. ABAP/RAP stays in the core; AI extension
+lives on BTP.
+
+## Status
+- Week 1: BTP trial live (US East VA, CF space `dev`). CAP stub not started.
+- Generative AI Hub is not entitled yet. That is intentional.
+- Joule skill is later. Not in this folder.
+
+## Not in this repo
+Production S/4 code, secrets, service keys, vendor documents.
