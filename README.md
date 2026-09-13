@@ -21,9 +21,7 @@ that S/4 or Joule can consume. ABAP/RAP stays in the core; AI extension
 lives on BTP.
 
 ## Status
-- Week 1: BTP trial live (US East VA, CF space `dev`). CAP stub not started.
-- Generative AI Hub is not entitled yet. That is intentional.
-- Joule skill is later. Not in this folder.
+- Week 1: CAP hello running in BAS (GrAssistant/Health).
 
 ## Not in this repo
 Production S/4 code, secrets, service keys, vendor documents.
