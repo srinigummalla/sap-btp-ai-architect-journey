@@ -1,0 +1,69 @@
+{
+  "C01": {
+    "outcome": "MATCH",
+    "flags": []
+  },
+  "C02": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "PRICE_VARIANCE"
+    ]
+  },
+  "C03": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "QUANTITY_EXCEEDS_AVAILABLE_GR"
+    ]
+  },
+  "C04": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "MISSING_GR"
+    ]
+  },
+  "C05": {
+    "outcome": "MATCH",
+    "flags": []
+  },
+  "C06": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "QUANTITY_EXCEEDS_AVAILABLE_GR"
+    ]
+  },
+  "C07": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "PRICE_VARIANCE"
+    ]
+  },
+  "C08": {
+    "outcome": "EXCEPTION",
+    "flags": [
+      "PRICE_VARIANCE",
+      "QUANTITY_EXCEEDS_AVAILABLE_GR"
+    ]
+  },
+  "C09": {
+    "outcome": "NEEDS_DATA",
+    "flags": [
+      "RECEIPT_DATA_UNAVAILABLE"
+    ]
+  },
+  "C10": {
+    "outcome": "MANUAL_REVIEW",
+    "flags": [
+      "INVALID_INVOICE_QUANTITY"
+    ]
+  },
+  "C11": {
+    "outcome": "MANUAL_REVIEW",
+    "flags": [
+      "CURRENCY_MISMATCH"
+    ]
+  },
+  "C12": {
+    "outcome": "MATCH",
+    "flags": []
+  }
+}

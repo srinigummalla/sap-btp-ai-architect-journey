@@ -1,0 +1,331 @@
+[
+  {
+    "case_id": "C01",
+    "description": "Complete match",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090001",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR01-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-001",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C02",
+    "description": "Invoice price higher",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090002",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR02-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-002",
+      "quantity": "100",
+      "unit_price": "55",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C03",
+    "description": "Invoice exceeds receipt",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090003",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR03-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-003",
+      "quantity": "120",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C04",
+    "description": "Confirmed zero receipts",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090004",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-004",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C05",
+    "description": "Valid partial invoice",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090005",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR05-1",
+        "quantity": "60",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-005",
+      "quantity": "60",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C06",
+    "description": "Prior invoices consume availability",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090006",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR06-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "60",
+    "invoice": {
+      "id": "INV-LAB-006",
+      "quantity": "50",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C07",
+    "description": "Lower invoice price still differs",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090007",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR07-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-007",
+      "quantity": "100",
+      "unit_price": "49",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C08",
+    "description": "Quantity and price difference",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090008",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "20",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR08-1",
+        "quantity": "20",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-008",
+      "quantity": "30",
+      "unit_price": "21",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C09",
+    "description": "Receipt lookup unavailable",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090009",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": null,
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-009",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C10",
+    "description": "Zero invoice quantity",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090010",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR10-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-010",
+      "quantity": "0",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C11",
+    "description": "Unsupported currency comparison",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090011",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR11-1",
+        "quantity": "100",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-011",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "EUR",
+      "unit": "EA"
+    }
+  },
+  {
+    "case_id": "C12",
+    "description": "Two receipts make one complete invoice",
+    "company_code": "US01",
+    "po": {
+      "id": "4500090012",
+      "item": "10",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    },
+    "receipts": [
+      {
+        "id": "GR12-1",
+        "quantity": "60",
+        "unit": "EA"
+      },
+      {
+        "id": "GR12-2",
+        "quantity": "40",
+        "unit": "EA"
+      }
+    ],
+    "prior_invoiced_quantity": "0",
+    "invoice": {
+      "id": "INV-LAB-012",
+      "quantity": "100",
+      "unit_price": "50",
+      "currency": "USD",
+      "unit": "EA"
+    }
+  }
+]
