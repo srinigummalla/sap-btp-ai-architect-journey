@@ -6,20 +6,22 @@ Existing experience was supplied by Srini; scores have intentionally not been gu
 
 | Skill | My score 0 to 4 | Concrete evidence | Gap to close |
 |---|---|---|---|
-| ABAP design and troubleshooting | TODO | TODO | TODO |
-| S/4HANA extensions and Clean Core | TODO | TODO | TODO |
-| CDS and RAP | TODO | TODO | TODO |
-| OData and API integration | TODO | TODO | TODO |
-| Fiori and UI5 | TODO | TODO | TODO |
-| BTP account model and runtime | TODO | TODO | TODO |
-| Authentication and SAP authorization | TODO | TODO | TODO |
-| Procurement and invoice verification | TODO | TODO | TODO |
-| LLMs and grounded answers | TODO | TODO | TODO |
-| RAG and evaluation | TODO | TODO | TODO |
-| Tools agents and controlled actions | TODO | TODO | TODO |
-| Architecture tradeoffs and business value | TODO | TODO | TODO |
-| Technical leadership | TODO | TODO | TODO |
+| ABAP design and troubleshooting | 3 | 19 years ABAP | TODO |
+| S/4HANA extensions and Clean Core | 0 | No hands-on evidence yet | TODO |
+| CDS and RAP | 3 | 5 years experience | TODO |
+| OData and API integration | 3 | good experience | TODO |
+| Fiori and UI5 | 2 | worked on some objects | TODO |
+| BTP account model and runtime | 0 | No hands-on evidence yet | TODO |
+| Authentication and SAP authorization | 0 | No hands-on evidence yet | TODO |
+| Procurement and invoice verification | 1 | No hands-on evidence yet | TODO |
+| LLMs and grounded answers | 0 | No hands-on evidence yet | TODO |
+| RAG and evaluation | 0 | No hands-on evidence yet | TODO |
+| Tools agents and controlled actions | 0 | No hands-on evidence yet | TODO |
+| Architecture tradeoffs and business value | 0 | No hands-on evidence yet | TODO |
+| Technical leadership | 1 | have some experience | TODO |
 
-Three strengths supported by a real example: TODO
-Three highest priority gaps: TODO
-One real architecture decision I already influenced: TODO
+Three strengths supported by a real example: 1. good abap programming experience 
+                                             2. good OData experience
+                                             
+Three highest priority gaps: whatever required for this role
+One real architecture decision I already influenced: no  
