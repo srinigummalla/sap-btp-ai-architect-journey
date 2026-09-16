@@ -4,16 +4,16 @@ Status: user supplied configuration; inspect the cockpit and fill the verificati
 
 | Item | User supplied value | Verified by me on |
 |---|---|---|
-| Region | US East (VA) AWS cf-us10 | TODO |
-| Global account | 69b7f502trial | TODO |
-| Subaccount | trial | TODO |
-| Cloud Foundry org | 69b7f502trial | TODO |
-| Cloud Foundry space | dev | TODO |
-| Repository | https://github.com/srinigummalla/sap-btp-ai-architect-journey | TODO |
-| Exact CF API endpoint copied from Overview | https://api.cf.us10-001.hana.ondemand.com/ | TODO |
-| CF environment status | Cloud Foundry Runtime | TODO |
-| Space Developer role |  present  | TODO |
-| Trial expiry or extension notice | TRIAL | TODO |
+| Region | US East (VA) AWS cf-us10 | 09/16/2026 |
+| Global account | 69b7f502trial | 09/16/2026 |
+| Subaccount | trial | 09/16/2026 |
+| Cloud Foundry org | 69b7f502trial | 09/16/2026 |
+| Cloud Foundry space | dev | 09/16/2026 |
+| Repository | https://github.com/srinigummalla/sap-btp-ai-architect-journey | 09/16/2026 |
+| Exact CF API endpoint copied from Overview | https://api.cf.us10-001.hana.ondemand.com/ | 09/16/2026 |
+| CF environment status | Created | 09/16/2026 |
+| Space Developer role |  present  | 09/16/2026 |
+| Trial expiry or extension notice | 90 days from 09/12/2026 | 09/16/2026 |
 
 ## Service access
 
@@ -21,7 +21,7 @@ Use NOT CHECKED until you inspect each row. Catalog presence does not mean an in
 
 | Capability | Listed in entitlements and exact plan | Existing instance or subscription status | Needed now |
 |---|---|---|---|
-| Cloud Foundry runtime | MEMORY | TODO | Verify only |
+| Cloud Foundry runtime | 4 GB | Available | Verify only |
 | SAP Business Application Studio | trial (Application) | Subscribed | Optional editor |
 | Destination service | lite | ABSENT | Later |
 | Integration Suite | Trial | ABSENT | Later |
