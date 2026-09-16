@@ -25,3 +25,13 @@ lives on BTP.
 
 ## Not in this repo
 Production S/4 code, secrets, service keys, vendor documents.
+
+## SAP AI architecture foundation
+
+
+[Days 1 and 2 lab](challenge/day01-day02/README.md)
+
+
+Scope: environment verification, procurement process analysis,
+
+synthetic invoice cases and a deterministic matching baseline.
