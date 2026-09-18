@@ -32,7 +32,7 @@ Use NOT CHECKED until you inspect each row. Catalog presence does not mean an in
 | Joule or Joule Studio | ABSENT | ABSENT | Later |
 | S/4HANA system and released API access | Separate access not established | ABSENT | Not needed Days 1 and 2 |
 
-What BTP trial proves: NOT CHECKED
-What it does not prove: NOT CHECKED
-Main blocker and workaround: NOT CHECKED
+What BTP trial proves: can navigate the BTP account hierarchy, inspect entitlements, use the dev space and work with available trial services
+What it does not prove: It does not establish production SAP AI access, S/4HANA connectivity, enterprise security configuration, scalability or production operating experience.
+Main blocker and workaround: AI Core, Joule and S/4HANA access are unavailable; use synthetic data and simulated APIs while clearly labeling them as portfolio implementations.
 Do not store passwords, tokens, service keys or full unredacted cockpit exports here.
