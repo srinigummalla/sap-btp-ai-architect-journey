@@ -1,6 +1,6 @@
 # Environment inventory
 
-Status: user supplied configuration; inspect the cockpit and fill the verification column.
+Status: Verified in the SAP BTP cockpit on 09/16/2026.
 
 | Item | User supplied value | Verified by me on |
 |---|---|---|
@@ -21,7 +21,7 @@ Use NOT CHECKED until you inspect each row. Catalog presence does not mean an in
 
 | Capability | Listed in entitlements and exact plan | Existing instance or subscription status | Needed now |
 |---|---|---|---|
-| Cloud Foundry runtime | 4 GB | Available | Verify only |
+| Cloud Foundry runtime | MEMORY; quota: 4 GB | Available | Verify only |
 | SAP Business Application Studio | trial (Application) | Subscribed | Optional editor |
 | Destination service | lite | ABSENT | Later |
 | Integration Suite | Trial | ABSENT | Later |
