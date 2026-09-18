@@ -26,7 +26,9 @@ Three strengths supported by a real example:
 3.  Technical leadership: Led a six-developer team and handled technical design, task allocation, code reviews, mentoring, production support and stakeholder communication.
                                              
 Three highest priority gaps: 
-SAP BTP and Clean Core architecture: Gain hands-on experience with Cloud Foundry deployment, BTP services, destinations, XSUAA, Integration Suite, released APIs and side-by-side extension patterns.
-Enterprise AI implementation: Build practical capability in LLMs, RAG, embeddings, vector retrieval, evaluation, tool calling, agents, human approval, guardrails and failure handling.
-Enterprise architecture and business value: Strengthen end-to-end solution design, security, governance, reliability, observability, architecture decision records, stakeholder communication, KPIs and ROI justification.
-One real architecture decision I already influenced: Not documented at the Day 1 baseline. I will update this section during the 60-day challenge with an evidence-backed architecture decision from a portfolio project, covering the business context, options considered, selected design, trade-offs and outcome. 
+1.  SAP BTP and Clean Core architecture: Gain hands-on experience with Cloud Foundry deployment, BTP services, destinations, XSUAA, Integration Suite, released APIs and side-by-side extension patterns.
+2.  Enterprise AI implementation: Build practical capability in LLMs, RAG, embeddings, vector retrieval, evaluation, tool calling, agents, human approval, guardrails and failure handling.
+3.  Enterprise architecture and business value: Strengthen end-to-end solution design, security, governance, reliability, observability, architecture decision records, stakeholder communication, KPIs and ROI justification.
+   
+One real architecture decision I already influenced:
+Not documented at the Day 1 baseline. I will update this section during the 60-day challenge with an evidence-backed architecture decision from a portfolio project, covering the business context, options considered, selected design, trade-offs and outcome. 
