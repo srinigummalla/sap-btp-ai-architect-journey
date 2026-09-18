@@ -18,10 +18,15 @@ Existing experience was supplied by Srini; scores have intentionally not been gu
 | RAG and evaluation | 0 | No hands-on evidence yet | Build hands-on knowledge of ingestion, chunking, embeddings, vector storage and metadata; implement filtering, hybrid retrieval, reranking and citations; create evaluation datasets and measure retrieval quality, faithfulness, relevance, latency and cost. |
 | Tools agents and controlled actions | 0 | No hands-on evidence yet | Learn agent state, memory, tool schemas and orchestration; implement MCP and SAP API/workflow integrations; enforce least privilege, human approval, idempotency, validation, audit logging, retries and safe failure handling for enterprise actions. |
 | Architecture tradeoffs and business value | 0 | No hands-on evidence yet | Practice comparing solution options and documenting assumptions, constraints and trade-offs in ADRs; design for security, scalability, reliability, observability, performance, cost and support; connect business pain points to architecture, roadmap, KPIs, adoption, risk and ROI. |
-| Technical leadership | 1 | Lead technical teams | Strengthen architecture communication across executive, business and technical audiences; practice cross-team decision-making, risk management and stakeholder alignment; prepare evidence-based leadership stories covering mentoring, production incidents, design decisions and delivery outcomes. |
+| Technical leadership | 3 | Lead technical teams | Strengthen architecture communication across executive, business and technical audiences; practice cross-team decision-making, risk management and stakeholder alignment; prepare evidence-based leadership stories covering mentoring, production incidents, design decisions and delivery outcomes. |
 
-Three strengths supported by a real example: 1. good abap programming experience 
-                                             2. good OData experience
+Three strengths supported by a real example: 
+1.  Broad SAP ABAP engineering: 19 years of hands-on experience across reports, IDocs, enhancements, Adobe Forms, module pool programs and custom developments.
+2.  SAP Fiori and cloud delivery: Led the implementation of approximately 15–20 SAP Fiori applications and their deployment on SAP Cloud Platform for an SAP Yard Logistics implementation that successfully reached production.
+3.  Technical leadership: Led a six-developer team and handled technical design, task allocation, code reviews, mentoring, production support and stakeholder communication.
                                              
-Three highest priority gaps: whatever required for this role
-One real architecture decision I already influenced: no  
+Three highest priority gaps: 
+SAP BTP and Clean Core architecture: Gain hands-on experience with Cloud Foundry deployment, BTP services, destinations, XSUAA, Integration Suite, released APIs and side-by-side extension patterns.
+Enterprise AI implementation: Build practical capability in LLMs, RAG, embeddings, vector retrieval, evaluation, tool calling, agents, human approval, guardrails and failure handling.
+Enterprise architecture and business value: Strengthen end-to-end solution design, security, governance, reliability, observability, architecture decision records, stakeholder communication, KPIs and ROI justification.
+One real architecture decision I already influenced: Not documented at the Day 1 baseline. I will update this section during the 60-day challenge with an evidence-backed architecture decision from a portfolio project, covering the business context, options considered, selected design, trade-offs and outcome. 
